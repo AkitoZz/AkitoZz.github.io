@@ -2,15 +2,15 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://akitozz.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: Mikatsuki
+subtitle: "mikatsuki"
+description: "精彩不亮丽，起落是无常"
+keywords: mikatsuki
 timezone: Asia/Shanghai
 encoding: "utf-8"
-repository: mzlogin/mzlogin.github.io
+repository: AkitoZz/AkitoZz.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -25,7 +25,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2022-01-16
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -37,7 +37,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: Mikatsuki
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -51,12 +51,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Mikatsuki
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: AkitoZz
+location: ChongQing, China
+email: chenzg1996@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -133,20 +133,20 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: AkitoZz
+    repo: akitozz.github.io
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 753191129f73637ddf24
+        client_secret: 15eb6c9523a19c8cdec7ba195e8c0949b34b2387
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: AkitoZz
+    repo: akitozz.github.io
+    clientID: 753191129f73637ddf24
+    clientSecret: 15eb6c9523a19c8cdec7ba195e8c0949b34b2387
 # https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: AkitoZz/akitozz.github.io
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
