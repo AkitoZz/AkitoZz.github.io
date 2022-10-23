@@ -169,9 +169,10 @@ fucn breadthFirst(root *TreeNode) [][]int {
 ## 获取二叉树层数
 
 - 递归
-```
+
     递归使用后序遍历的方式求节点高度，而根节点高度即二叉树最大深度，即调用该函数时传入根节点即可
 
+```
 func getHeight(node *TreeNode) int {
     // 遍历到空节点时即高度为0
     if node == nil {
