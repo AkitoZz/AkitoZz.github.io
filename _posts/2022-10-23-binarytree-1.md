@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 二叉树-1
+title: 二叉树_理论基础
 categories: [binaryTree, 算法, 数据结构]
 description: 二叉树, 算法, 数据结构
 keywords: 二叉树, 算法, 数据结构, golang
